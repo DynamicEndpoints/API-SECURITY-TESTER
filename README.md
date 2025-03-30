@@ -1,5 +1,6 @@
 # API Security Tester MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@DynamicEndpoints/api-security-tester)](https://smithery.ai/server/@DynamicEndpoints/api-security-tester)
 An MCP server that provides tools for comprehensive API security testing and analysis.
 
 ## Features
@@ -18,6 +19,15 @@ An MCP server that provides tools for comprehensive API security testing and ana
 
 ## Installation
 
+### Installing via Smithery
+
+To install API Security Tester for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@DynamicEndpoints/api-security-tester):
+
+```bash
+npx -y @smithery/cli install @DynamicEndpoints/api-security-tester --client claude
+```
+
+### Manual Installation
 ```bash
 npm install
 ```
@@ -104,3 +114,4 @@ Perform fuzzing tests on endpoints:
 Run in development mode with watch mode enabled:
 ```bash
 npm run dev
+```
